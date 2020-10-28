@@ -1,0 +1,25 @@
+.button {
+    color: #333;
+    background-color: #fff;
+    border: 1.5px solid #ccc;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: $font-body;
+    font-size: 1.2rem;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    border-radius: 0.1rem;
+    line-height: 1.4;
+}
+
+.button:hover {
+    background-color: #ddd;
+    background-image: none;
+}
+
+.button:active {
+    background-color: #4e75ba;
+    background-image: none;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.15);
+}
